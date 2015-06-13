@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<meta charset ='UTF-8'>
+<title>WEB制作のメモ|jQueryプラグイン|bxsliderを利用したスライド表示</title>
+<link href="lib/css/jquery.bxslider.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="lib/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#bx-pager').bxSlider({
+    adaptiveHeight: true
+    });
+});
+</script>
+</head>
+
+<body>
+<div id="bx-pager">
+	<div><img src="/lib/images/a1.png"/></div>
+	<div><img src="/lib/images/b1.png"/></div>
+</div>
+
+</body>
+</html>
